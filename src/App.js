@@ -29,7 +29,7 @@ function App() {
      <Navbar/>
                
       <Routes>
-          <Route  path='/' element={<Contact/>}></Route>
+          <Route  path='/' index element={<Contact/>}></Route>
           <Route  path='/add_user' element={<Adduser/>}></Route>
           <Route  path='/update_user/:id' element={<UpdateUser/>}></Route>
 
