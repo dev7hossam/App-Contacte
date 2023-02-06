@@ -25,7 +25,7 @@ function App() {
 
 
 
-     <BrowserRouter basename='/contact'>
+     <BrowserRouter basename='/App-Contacte'>
      <Navbar/>
                
       <Routes>
